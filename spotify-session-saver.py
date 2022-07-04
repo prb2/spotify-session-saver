@@ -30,7 +30,7 @@ token = util.prompt_for_user_token(
     scope,
     client_id=client_id,
     client_secret=client_secret,
-    redirect_uri='https://www.example.com'
+    redirect_uri='http://localhost:8080'
 )
 if not token:
     print("> couldn't get token for", username)

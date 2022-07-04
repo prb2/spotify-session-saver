@@ -5,7 +5,8 @@ cli tool to save all the tracks played during a "session" to a new playlist
 
 Not particularly user-friendly, but, follow the steps
 [here](https://developer.spotify.com/documentation/general/guides/authorization/app-settings/)
-to create a Spotify app and acquire the client ID and client secret.
+to create a Spotify app and acquire the client ID and client secret. Add
+`http://localhost:8080` as one of the Redirect URIs.
 
 Then, run the script like this:
 
